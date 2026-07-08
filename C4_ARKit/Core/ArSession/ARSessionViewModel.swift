@@ -8,16 +8,6 @@
 //
 //  ARSessionManager.swift
 //  C4_ARKit
-//
-//  Lesson 2 — Mengelola siklus hidup ARSession secara manual.
-//
-//  CATATAN STATUS: class ini belum dipakai oleh ARViewportView saat ini,
-//  karena ARViewportView memakai `content.camera = .worldTracking` yang
-//  membuat RealityKit mengelola ARSession-nya SENDIRI secara internal.
-//  Kita simpan class ini karena akan kita hubungkan kembali di lesson
-//  berikutnya untuk mendapatkan akses ke trackingState.
-//
-
 import SwiftUI
 import ARKit
 import Combine
